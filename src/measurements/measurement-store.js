@@ -21,6 +21,7 @@ export function fetch(timestamp) {
   let measurement = data.find(measurement => {
       return measurement['timestamp']getTime() === timestamp.getTime()
   });
+
   if (measurement) {
       return measurement;
   } else {
