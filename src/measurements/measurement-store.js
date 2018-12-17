@@ -9,7 +9,7 @@ const data = [];
  */
 export function add(measurement) {
   data.push(measurement);
-  throw new HttpError(501);
+  
 }
 
 /**
