@@ -37,6 +37,8 @@ export function queryDateRange(from, to) {
       let measurement = data[i];
       let date = measurement.getMetric('timestampe');
       if (from >= date) {
+          
+      }
   }
   throw new HttpError(501);
 }
