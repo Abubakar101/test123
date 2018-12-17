@@ -19,7 +19,7 @@ export class Measurement {
    * @param {String} name
    * @return {Number}
    */
-  cz(name) {
+  getMetric(name) {
     return this.metrics.get(name);
   }
 }
