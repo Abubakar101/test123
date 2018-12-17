@@ -35,6 +35,7 @@ export function queryDateRange(from, to) {
   let startIndex = -1;
   for (let i = 0; i < data.length; i++) {
       let measurement = data[i];
+
   }
   throw new HttpError(501);
 }
