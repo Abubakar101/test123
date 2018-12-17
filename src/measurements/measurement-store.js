@@ -6,7 +6,7 @@ import { HttpError } from '../errors';
  * @param {Measurement} measurement to be added
  */
 export function add(measurement) {
-  data.p
+  data.push(measu)
   throw new HttpError(501);
 }
 
