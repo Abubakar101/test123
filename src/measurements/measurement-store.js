@@ -36,7 +36,7 @@ export function queryDateRange(from, to) {
   for (let i = 0; i < data.length; i++) {
       let measurement = data[i];
       let date = measurement.getMetric('timestampe');
-      if (from >= date && to <= d) {
+      if (from >= date && to <= date) {
           startIndex = i;
       }
   }
