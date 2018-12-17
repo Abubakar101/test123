@@ -41,6 +41,6 @@ export function queryDateRange(from, to) {
       }
   }
   
-
+  return 
   throw new HttpError(501);
 }
