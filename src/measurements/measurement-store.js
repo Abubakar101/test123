@@ -33,6 +33,6 @@ export function fetch(timestamp) {
  */
 export function queryDateRange(from, to) {
   let startIndex = -1;
-  
+  data
   throw new HttpError(501);
 }
