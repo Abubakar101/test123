@@ -19,9 +19,9 @@ export function add(measurement) {
 export function fetch(timestamp) {
     
   let measurement = data.find(measurement => {
-      return measurement['timestamp']getTime() === timestamp.getTime()
+      return measurement['timestamp'].getTime() === timestamp.getTime()
   });
-
+  
   if (measurement) {
       return measurement;
   } else {
