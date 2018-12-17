@@ -22,7 +22,7 @@ export function fetch(timestamp) {
   if (measurement) {
       return measurement;
   } else {
-      thr
+      throw new
   }
   throw new HttpError(501);
 }
