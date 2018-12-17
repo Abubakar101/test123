@@ -32,7 +32,7 @@ export function fetch(timestamp) {
  * @param {Date} end Upper bound for the query, exclusive
  */
 export function queryDateRange(from, to) {
-  let  = -1;
+  let filtered = -1;
   for (let i = 0; i < data.length; i++) {
       let measurement = data[i];
       let date = measurement.getMetric('timestampe');
