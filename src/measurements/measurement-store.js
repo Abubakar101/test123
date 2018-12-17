@@ -32,6 +32,6 @@ export function fetch(timestamp) {
  * @param {Date} end Upper bound for the query, exclusive
  */
 export function queryDateRange(from, to) {
-  let startIndex = 
+  let startIndex = -1;
   throw new HttpError(501);
 }
