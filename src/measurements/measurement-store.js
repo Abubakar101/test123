@@ -20,7 +20,7 @@ export function fetch(timestamp) {
     
   let measurement = data.find(measurement => {
       console.log('+++++++++++++++++++++++++++++++++++++')
-      console.log()
+      console.log(measurement)
       console.log('+++++++++++++++++++++++++++++++++++++')
       measurement.getMetric('timestamp').getTime() === timestamp.getTime()
   });
