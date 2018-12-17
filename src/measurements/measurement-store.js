@@ -19,9 +19,7 @@ export function add(measurement) {
 export function fetch(timestamp) {
     
   let measurement = data.find(measurement => {
-      console.log('+++++++++++++++++++++++++++++++++++++')
-      console.log(measurement)
-      console.log('+++++++++++++++++++++++++++++++++++++')
+
       measurement.'timestamp'.getTime() === timestamp.getTime()
   });
   if (measurement) {
