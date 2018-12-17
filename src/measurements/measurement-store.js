@@ -36,7 +36,7 @@ export function queryDateRange(from, to) {
   for (let i = 0; i < data.length; i++) {
       let measurement = data[i];
       let date = measurement.getMetric('timestampe');
-      
+      i
   }
   throw new HttpError(501);
 }
