@@ -37,7 +37,7 @@ export function queryDateRange(from, to) {
       let measurement = data[i];
       let date = measurement.getMetric('timestampe');
       if (from >= date && to <= date) {
-          filtered.push(meau)
+          filtered.push(measurement);
       }
   }
   
