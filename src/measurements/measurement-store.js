@@ -18,7 +18,7 @@ export function add(measurement) {
  * @returns {Measurement} measurement for the particular date
  */
 export function fetch(timestamp) {
-    data.reduce
+    data.reduc
   throw new HttpError(501);
 }
 
