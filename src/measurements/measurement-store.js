@@ -1,7 +1,7 @@
 import { Measurement } from './measurement';
 import { HttpError } from '../errors';
 
-let data = []
+let data = [];
 
 /**
  * Add new measurement
