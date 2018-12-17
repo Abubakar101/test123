@@ -19,7 +19,7 @@ export function add(measurement) {
  */
 export function fetch(timestamp) {
   let measurement = data.find(measurement => measurement.getMetric('timestamp').getTime() === timestamp.getTime());
-  if mea
+  if measurement
   throw new HttpError(501);
 }
 
