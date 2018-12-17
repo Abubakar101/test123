@@ -22,7 +22,7 @@ export function fetch(timestamp) {
       console.log('+++++++++++++++++++++++++++++++++++++')
       console.log(measurement)
       console.log('+++++++++++++++++++++++++++++++++++++')
-      measurement.getMetric('timestamp').getTime() === timestamp.getTime()
+      measurement.'timestamp').getTime() === timestamp.getTime()
   });
   if (measurement) {
       return measurement;
