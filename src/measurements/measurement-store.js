@@ -24,7 +24,7 @@ export function fetch(timestamp) {
   } else {
       throw new HttpError(404);
   }
-  throw new HttpError(501);
+
 }
 
 /**
