@@ -32,6 +32,6 @@ export function fetch(timestamp) {
  * @param {Date} end Upper bound for the query, exclusive
  */
 export function queryDateRange(from, to) {
-  l
+  let sta
   throw new HttpError(501);
 }
