@@ -19,7 +19,7 @@ router.post('/', (req, res) => {
 
 router.get('/:timestamp', (req, res) => {
   const result = store.fetch(new Date(req.params.timestamp));
-  console.log(results)
+  console.log(results
   if (result) res.json(serializeMeasurement(result));
   else res.sendStatus(404);
 });
