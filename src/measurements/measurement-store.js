@@ -9,7 +9,6 @@ const data = [];
  */
 export function add(measurement) {
   data.push(measurement);
-  
 }
 
 /**
