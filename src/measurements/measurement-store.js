@@ -18,7 +18,7 @@ export function add(measurement) {
  * @returns {Measurement} measurement for the particular date
  */
 export function fetch(timestamp) {
-  let measurement = data.find(measurement => measurement.getMetric('timestamp')getMetric === timestamp);
+  let measurement = data.find(measurement => measurement.getMetric('timestamp') === timestamp);
   throw new HttpError(501);
 }
 
